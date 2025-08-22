@@ -1,26 +1,56 @@
-# Video-quality-conversion-SD-to-HD-
-Develop a prototype of a video conversion process that can upscale SD resolution (640 x 480px) videos to HD resolution (1280 x 720px) using traditional interpolation techniques. The tool should efficiently resize the video frames while maintaining the overall quality. It should preserve the original audio and merge it with the upscaled video.
+<p align="center">
+  <a href="https://github.com/Brajesh31/Video-quality-conversion-SD-to-HD--main">
+    <img src="https://raw.githubusercontent.com/Brajesh31/asset/main/video-upscaler-banner.png" alt="SD to HD Video Upscaler Banner">
+  </a>
+</p>
 
-**Objective:**
-To create a video conversion tool that:
-- Upscales SD videos to HD resolution using interpolation methods.
-- Preserves the original video quality to the extent possible through traditional methods like cubic interpolation.
-- Ensures the audio from the original video is retained and synchronized with the upscaled video.
-- Operates efficiently to process videos in a reasonable amount of time using OpenCV and FFmpeg.
+<div align="center">
 
-**Requirements:**
-The video conversion tool should:
-- Use interpolation methods (e.g., cubic interpolation) to resize video frames from SD to HD resolution.
-- Extract and preserve the original audio from the video, merging it back with the upscaled video.
-- Be efficient and capable of handling standard video formats, ensuring that the upscaled video maintains a good quality while being processed quickly.
+# 📹 SD to HD Video Upscaler 🖼️
 
-**Technical Specifications:**
-- **Input Resolution:** 640 x 480px (SD)
-- **Output Resolution:** 1280 x 720px (HD)
-- **Tools Used:** OpenCV for video processing and FFmpeg for audio extraction and merging.
-- **Output Format:** The output video should be saved in a commonly used format such as `.mp4` or `.avi`, with the upscaled resolution and synchronized audio.
+**A Python-based tool to upscale Standard Definition (SD) videos to High Definition (HD) using traditional interpolation, while perfectly preserving the original audio.**
 
-- Directory or file structure
-- input_video (place the video inside the folder named input_video)
-- upscaled_video (create a folder name upscaled_video -- > output video will store here)
-- video_conversion.py
+</div>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/Brajesh31/Video-quality-conversion-SD-to-HD-?style=for-the-badge&color=gold" alt="Stars">
+  &nbsp;
+  <img src="https://img.shields.io/github/last-commit/Brajesh31/Video-quality-conversion-SD-to-HD-?style=for-the-badge&color=blue" alt="Last Commit">
+  &nbsp;
+  <img src="https://img.shields.io/github/license/Brajesh31/Video-quality-conversion-SD-to-HD-?style=for-the-badge&color=green" alt="License">
+</p>
+
+---
+
+## 🎯 Project Overview
+
+This project is a prototype of a video conversion process that efficiently upscales **SD resolution (640x480px)** videos to **HD resolution (1280x720px)**. It leverages traditional, fast interpolation techniques like cubic interpolation to resize video frames while maintaining the best possible quality.
+
+A key feature of this tool is its ability to handle audio separately. It extracts the original audio from the source video, processes the video frames, and then seamlessly merges the preserved audio with the newly upscaled video, ensuring perfect synchronization.
+
+<br>
+
+## ✨ Core Features
+
+* **High-Quality Interpolation:** Uses **Cubic Interpolation** via OpenCV for a smoother and higher-quality upscale compared to simpler methods.
+* **Audio Preservation:** Extracts the original audio track using FFmpeg and flawlessly merges it with the upscaled video.
+* **Efficient Processing:** Built with performance in mind, using optimized libraries to process videos in a reasonable amount of time.
+* **Standard Formats:** Supports common input video formats and produces standard `.mp4` output files.
+
+<br>
+
+## 🛠️ Technology Stack
+
+This tool is built with a combination of powerful, open-source libraries for media processing.
+
+| Technology                                                                                                               | Purpose                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
+| [![Python][Python-badge]][Python-url]                                                                                    | The core programming language for the script.                                    |
+| [![OpenCV][OpenCV-badge]][OpenCV-url]                                                                                    | Used for all video processing tasks, including reading, resizing, and writing frames. |
+| [![FFmpeg][FFmpeg-badge]][FFmpeg-url]                                                                                    | A command-line tool used for fast and reliable audio extraction and merging. |
+
+<br>
+
+## 📁 File Structure
+
+The project uses a simple and intuitive directory structure.
