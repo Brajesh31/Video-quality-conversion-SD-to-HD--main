@@ -13,11 +13,11 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/Brajesh31/Video-quality-conversion-SD-to-HD-?style=for-the-badge&color=gold" alt="Stars">
+  <img src="https://img.shields.io/github/stars/Brajesh31/Video-quality-conversion-SD-to-HD--main?style=for-the-badge&color=gold" alt="Stars">
   &nbsp;
-  <img src="https://img.shields.io/github/last-commit/Brajesh31/Video-quality-conversion-SD-to-HD-?style=for-the-badge&color=blue" alt="Last Commit">
+  <img src="https://img.shields.io/github/last-commit/Brajesh31/Video-quality-conversion-SD-to-HD--main?style=for-the-badge&color=blue" alt="Last Commit">
   &nbsp;
-  <img src="https://img.shields.io/github/license/Brajesh31/Video-quality-conversion-SD-to-HD-?style=for-the-badge&color=green" alt="License">
+  <img src="https://img.shields.io/github/license/Brajesh31/Video-quality-conversion-SD-to-HD--main?style=for-the-badge&color=green" alt="License">
 </p>
 
 ---
