@@ -54,3 +54,5 @@ This tool is built with a combination of powerful, open-source libraries for med
 ## 📁 File Structure
 
 The project uses a simple and intuitive directory structure.
+
+Last updated: 2026-10-13 15:43 UTC
